@@ -29,14 +29,14 @@ BOXES = {
     #    [37.80789, -122.25000],
     #    [37.81589,	-122.26081],
     #],
-    "piedmont": [
-        [37.82240, -122.24768],
-        [37.83237, -122.25386],
-    ],
-    "rockridge": [
-        [37.83826, -122.24073],
-        [37.84680, -122.25944],
-    ],
+    #"piedmont": [
+    #    [37.82240, -122.24768],
+    #    [37.83237, -122.25386],
+    #],
+    #"rockridge": [
+    #    [37.83826, -122.24073],
+    #    [37.84680, -122.25944],
+    #],
     #"berkeley": [
     #    [37.86226, -122.25043],
     #    [37.86781, -122.26502],
@@ -80,7 +80,8 @@ NEIGHBORHOODS = ["mission", "mission bay", "dogpatch", "soma", "emeryville", "co
 ## Transit preferences
 
 # The farthest you want to live from a transit stop.
-MAX_TRANSIT_DIST = 1 # kilometers
+MAX_TRANSIT_DIST = 10 # kilometers
+#TODO: Unless I can add a lot of bus stations it might not be smart to limit it that heavily at this point.
 
 # Transit stations you want to check against.  Every coordinate here will be checked against each listing,
 # and the closest station name will be added to the result and posted into Slack.
@@ -88,9 +89,10 @@ TRANSIT_STATIONS = {
     "oakland_19th_bart": [37.8118051,-122.2720873],
     "macarthur_bart": [37.8265657,-122.2686705],
     "rockridge_bart": [37.841286,-122.2566329],
-    "downtown_berkeley_bart": [37.8629541,-122.276594],
-    "north_berkeley_bart": [37.8713411,-122.2849758]
+    "ucsf_mission_bay_muni": [37.768805, -122.389339],
+    "sf_station_caltrain": [37.776461, -122.394846]
 }
+#TODO: Need to add moar
 
 ## Search type preferences
 
