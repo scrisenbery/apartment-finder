@@ -76,7 +76,7 @@ def scrape_area(area):
                 result.update(geo_data)
             else:
                 result["area"] = ""
-                result["bart"] = ""
+                result["transit"] = ""
 
             # Try parsing the price.
             price = 0
