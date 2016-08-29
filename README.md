@@ -1,3 +1,7 @@
+##scrisenbery Apartment Finder
+Converting original project to Google App Engine (Flex environment) with Google Cloud SQL as the database.
+
+
 Apartment finder
 -------------------
 
